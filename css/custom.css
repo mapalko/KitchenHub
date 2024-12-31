@@ -1,0 +1,114 @@
+/* Custom CSS Sample
+ *
+ * Change color and fonts here.
+ *
+ * Beware that properties cannot be unitless, so for example write '--gap-body: 0px;' instead of just '--gap-body: 0;'
+ */
+
+/* Uncomment and adjust accordingly if you want to import another font from the google-fonts-api: */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap'); */
+
+:root {
+  --color-text: #999;
+  --color-text-dimmed: #666;
+  --color-text-bright: #fff;
+  --color-background: black;
+
+  --font-primary: "Roboto Condensed";
+  --font-secondary: "Roboto";
+
+  --font-size: 20px;
+  --font-size-small: 0.75rem;
+
+  --gap-body-top: 60px;
+  --gap-body-right: 60px;
+  --gap-body-bottom: 60px;
+  --gap-body-left: 60px;
+
+  --gap-modules: 30px;
+}
+
+
+.dimmed {
+  color: var(--color-text);
+}
+
+/* Change Clock Date color and reduce font size */
+/* Clock Options */
+.clock .time {
+  font-size: 45px;
+}
+
+/* Module Definitions. */
+
+.MMM-CalendarExt3 {
+  background-color:rgba(255, 255, 255, 0.35);
+  border-radius:8px;
+  padding:8px;
+}
+
+.MMM-CalendarExt3Journal {
+  background-color:rgba(255, 255, 255, 0.35);
+  border-radius:8px;
+  padding:8px;
+}
+
+.CX3J .index.gridCell {
+  font-size: 0.8em;
+  text-align: center; 
+  color: ghostwhite;
+} 
+
+.MMM-CalendarExt3 .module-header {
+  color: ghostwhite;
+}
+
+.MMM-CalendarExt3Journal .module-header {
+  color: ghostwhite;
+}
+
+.CX3 .cw {
+  color: lightcyan;
+}
+
+.CX3 .weekend_1,
+.CX3 .weekend_2,
+.CX3 .weekday {
+        color: ghostwhite;
+}
+
+.CX3J .daycell.weekend_1 .weekday {
+  color: ghostwhite;
+}
+
+.CX3J .daycell.weekend_2 .weekday {
+  color: ghostwhite;
+}
+
+.MMM-Todoist {
+  background-color:rgba(255, 255, 255, 0.35);
+  border-radius:8px;
+  padding:8px;
+}
+
+.MMM-Todoist .module-header {
+  color: ghostwhite;
+  text-align: left;
+}
+
+.MMM-Todoist .divTableCell {
+  color: ghostwhite;
+}
+
+/* Region Definitions. */
+
+.region.top.right,
+.region.bottom.right {
+  position: absolute;
+  width: 75%;
+}
+
+.region.bottom.bar {
+  position: absolute;
+  height: 0px;
+}
