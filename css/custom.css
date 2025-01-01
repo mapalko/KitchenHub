@@ -41,6 +41,13 @@
 
 /* Module Definitions. */
 
+/* Increase the size of indicators and margins to make them more easily  */
+.MMM-page-indicator .indicator {
+  padding: 0 10px;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
 .MMM-CalendarExt3 {
   background-color:rgba(255, 255, 255, 0.35);
   border-radius:8px;
@@ -51,6 +58,12 @@
   background-color:rgba(255, 255, 255, 0.35);
   border-radius:8px;
   padding:8px;
+}
+
+.CX3J .main {
+    max-height: 800px; /* Set the desired maximum height */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    scrollbar-width: thin; /* Optional: thin scrollbar for modern browsers */
 }
 
 .CX3J .index.gridCell {

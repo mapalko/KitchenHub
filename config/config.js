@@ -114,8 +114,8 @@ let config = {
 			  locale: 'en-GB',
 			  staticWeek: true,
 			  staticTime: true,
-			  hourLength: 11,
-			  beginHour:  8,
+			  hourLength: 17,
+			  beginHour:  7,
 			  calendarSet: ['us_holiday', 'mh_joint']
 			}
 		  },
